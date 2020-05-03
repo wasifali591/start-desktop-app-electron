@@ -1,0 +1,42 @@
+{
+  "name": "systeminfoapp",
+  "version": "1.0.0",
+  "description": "Simple System Monitoring",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "author": "Md Wasif Ali",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.0",
+    "electron-package": "^0.1.0",
+    "run-async": "^2.4.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "electron": "^8.2.5",
+    "electron-builder": "^22.6.0",
+    "electron-packager": "^14.2.1",
+    "jquery": "^3.5.0",
+    "webpack": "^4.43.0"
+  },
+  "build": {
+    "appId": "com.alaap.app",
+    "ProductName": "System Info",
+    "directory": {
+      "output": "build"
+    },
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "icon": "build/icon.ico"
+    },
+    "nsis": {
+      "allowToChangeInstallationDirectory": true,
+      "oneClick": false
+    }
+  }
+}
