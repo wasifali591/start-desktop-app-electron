@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "cross-env": "^7.0.2",
-    "electron": "^8.2.5",
+    "electron": "^9.4.0",
     "electron-builder": "^22.6.0",
     "electron-packager": "^14.2.1",
     "jquery": "^3.5.0",
