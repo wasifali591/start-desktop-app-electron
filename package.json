@@ -10,7 +10,7 @@
   "author": "Md Wasif Ali",
   "license": "ISC",
   "dependencies": {
-    "async": "^3.2.0",
+    "async": "^3.2.2",
     "electron-package": "^0.1.0",
     "run-async": "^2.4.1"
   },
